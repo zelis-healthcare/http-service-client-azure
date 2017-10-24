@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Zelis.Core.HttpServiceClient
+namespace Zelis.Core.HttpServiceClient.Azure
 {
     public class AzureActiveDirectoryAuthenticatingHttpServiceClientConfiguration : HttpServiceClientConfiguration
     {

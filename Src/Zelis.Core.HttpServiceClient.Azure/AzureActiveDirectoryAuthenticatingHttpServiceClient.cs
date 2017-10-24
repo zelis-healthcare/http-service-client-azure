@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Zelis.Core.HttpServiceClient
+namespace Zelis.Core.HttpServiceClient.Azure
 {
     public class AzureActiveDirectoryAuthenticatingHttpServiceClient : HttpServiceClient
     {

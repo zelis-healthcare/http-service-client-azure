@@ -24,6 +24,7 @@
   <ItemGroup>
     <PackageReference Include="microsoft.identitymodel.clients.activedirectory" Version="3.16.1" />
     <PackageReference Include="newtonsoft.json" Version="10.0.3" />
+    <PackageReference Include="zelis.core.httpserviceclient" Version="1.3.3" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='netstandard1.3' OR '$(TargetFramework)'=='netstandard1.4' OR '$(TargetFramework)'=='netstandard1.5' OR '$(TargetFramework)'=='netstandard1.6' OR '$(TargetFramework)'=='netstandard2.0'">
